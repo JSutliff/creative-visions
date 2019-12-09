@@ -18,6 +18,10 @@ body {
 }
 
 /* MENU STYLES */
+.menu {
+  text-transform: uppercase;
+}
+
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -38,8 +42,8 @@ body {
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   z-index: 1;
   width: 60px;
   height: 60px;
@@ -234,10 +238,22 @@ body {
 
 .about {
   display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .tagLines {
   display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.margin-top {
+  margin-top: 60px;
+}
+
+.tagLines-title {
+  text-transform: uppercase;
 }
 
 #testimonies {
@@ -246,11 +262,16 @@ body {
   margin-top: 100px;
   height: 300px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonies-quote {
   display: inline-block;
   font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {

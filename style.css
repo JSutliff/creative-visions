@@ -356,3 +356,35 @@ body {
     padding-left: 3rem;
   }
 }
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="email"],
+/* .form-style-8 textarea, */
+.form-style-8 select {
+  outline: none;
+  display: block;
+  width: 60%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin: 0 auto;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+.form-style-8 textarea {
+  /* resize: none; */
+  overflow: hidden;
+  height: 300px;
+}
+
+.form-style-8 button {
+  /* outline: none; */
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  width: 90px;
+  background-color: #212121;
+  color: white;
+  text-transform: uppercase;
+}

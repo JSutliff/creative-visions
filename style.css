@@ -226,6 +226,18 @@ body {
   cursor: pointer;
 }
 
+#about-title {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+}
+
+.tagLines {
+  display: flex;
+}
+
 @media (max-width: 960px) {
   .container {
     padding-right: 3rem;

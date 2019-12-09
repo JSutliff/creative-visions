@@ -325,6 +325,10 @@ body {
   color: white;
 }
 
+#contact {
+  height: 400px;
+}
+
 #contact-title {
   text-align: center;
   text-transform: uppercase;
@@ -333,6 +337,17 @@ body {
 
 .contact {
   justify-content: space-around;
+}
+
+#quote {
+  background-color: #fafafa;
+  height: 400px;
+}
+
+#quote-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 960px) {

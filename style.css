@@ -240,6 +240,7 @@ body {
   display: flex;
   width: 80%;
   margin: 0 auto;
+  font-size: 18px;
 }
 
 .tagLines {
@@ -272,6 +273,55 @@ body {
   font-size: 20px;
   width: 60%;
   margin: 0 auto;
+}
+
+#services {
+  height: 300px;
+  background-color: #fafafa;
+  margin-top: -10px;
+}
+
+#services-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+#clients {
+  height: 300px;
+}
+
+#clients-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+#logo-container {
+  list-style: none;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#actionPoint {
+  margin-top: 100px;
+  height: 150px;
+  background-color: #212121;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#actionPoint a {
+  color: white;
 }
 
 @media (max-width: 960px) {

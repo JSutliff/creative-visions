@@ -234,6 +234,7 @@ body {
 
 #about-title {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .about {
@@ -322,6 +323,16 @@ body {
 
 #actionPoint a {
   color: white;
+}
+
+#contact-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.contact {
+  justify-content: space-around;
 }
 
 @media (max-width: 960px) {

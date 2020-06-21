@@ -1,193 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Creative Visions - Aerial Video</title>
-  </head>
-  <body>
-    <div class="menu-wrap" id="home">
-      <input type="checkbox" class="toggler" />
-      <div class="hamburger"><div></div></div>
-      <div class="menu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/cdb66e7ab9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+  <nav class="hide">
+    <ul id="top-nav">
+      <li><a href="home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+  <!-- Hamburger Menu -->
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler" id="toggler">
+    <div class="hamburger">
+      <div></div>
+    </div>
+    <div class="menu">
+      <div>
         <div>
-          <div>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#work">Work</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+          <ul id="toggleMenu">
+            <li><a href="home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    <header class="video-header container showcase">
-      <div class="fullscreen-video-wrapper showcase-inner">
-        <video src="video1.mp4" autoplay="true" loop="true" muted></video>
-      </div>
+  </div>
+  <!-- END RESPONSIVE MENU -->
 
-      <div class="header-overlay"></div>
-      <div class="header-content">
-        <h1>Creative Visions</h1>
-        <p>
-          A premiere aerial photography and video production company with a
-          passion for creativity
-        </p>
-        <button class="btn">Request A Quote</button>
-      </div>
-    </header>
+  <!-- Showcase -->
+  <section class="showcase">
+    <div class="video-container">
+      <video src="./assets/images/video1.mp4" autoplay muted loop></video>
+    </div>
+    <div class="content">
+      <h1 class="section-title">Creative Visions</h1>
+      <h3>A premiere aerial photography and video production company</h3>
+      <a href="#about" class="cta-btn">Request A Quote</a>
+    </div>
+  </section>
+  <!-- END SHOWCASE -->
 
-    <main>
-      <section id="about">
-        <div id="about-title">
-          <h2>About Us</h2>
-        </div>
-        <div class="about">
-          <p>
-            We are Creative Visions LLC, a premiere aerial photography and video
-            production company with a passion for creativity. Here at Creative
-            Visions, we truly believe that engaging through visuals will help
-            you connect and communicate with your audience.
-          </p>
-          <p>
-            With over 5 years experience working as a freelancer, I, Tyler Hunt
-            started Creative Visions in 2016. We are a small business based out
-            of Palm Harbor Florida, but no job is too big or too small! Contact
-            us today so we can learn more about your ideas and help create the
-            perfect vision for you!
-          </p>
-        </div>
+  <!-- About -->
+  <section id="about">
+    <h1 class="section-title">About Us</h1>
+    <p>We are Creative Visions LLC, a premiere aerial photography and video production company with a passion for
+      creativity. Here at Creative Visions, we truly believe that engaging through visuals will help you connect and
+      communicate with your audience.</p>
 
-        <div class="tagLines margin-top">
-          <div id="tag-1">
-            <h3 class="tagLines-title">We Are Creative</h3>
-            <p>
-              Being creative is something that we love! It’s just in our blood.
-              Lets collaborate and create something amazing together!
-            </p>
-          </div>
+    <p>With over 5 years experience working as a freelancer, I, Tyler Hunt started Creative Visions in 2016. We are a
+      small business based out of Palm Harbor Florida, but no job is too big or too small! Contact us today so we can
+      learn more about your ideas and help create the perfect vision for you!</p>
+    <div class="benefit">
+      <h2>We Are Creative</h2>
+      <p>Being creative is something that we love! It’s just in our blood. Lets collaborate and create something amazing
+        together!</p>
+    </div>
 
-          <div id="tag-2">
-            <h3 class="tagLines-title">We are consistent</h3>
-            <p>
-              Time after time we continue to produce quality work! Consistency
-              is the key, just check out our work for yourself.
-            </p>
-          </div>
+    <div class="benefit">
+      <h2>We Are Consistent</h2>
+      <p>Time after time we continue to produce quality work! Consistency is the key, just check out our work for
+        yourself.</p>
+    </div>
 
-          <div id="tag-3">
-            <h3 class="tagLines-title">We are relialable</h3>
-            <p>
-              We respect your time and values, so when we make a commitment you
-              can count on us to deliver. Let our actions speak for them self.
-            </p>
-          </div>
-        </div>
-      </section>
+    <div class="benefit">
+      <h2>We Are Reliable</h2>
+      <p>We respect your time and values, so when we make a commitment you can count on us to deliver. Let our actions
+        speak for them self.</p>
+    </div>
+  </section>
+  <!-- END ABOUT -->
 
-      <section id="testimonies">
-        <div class="testimonies-quote">
-          <p>
-            Tyler has added value to my business by helping me sell multiple
-            properties with ease. His attention to detail allows him to produce
-            videos of the highest quality. - Jane Doe
-          </p>
-        </div>
-      </section>
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <p id="testimonial-content">"Only one who devotes himself to a cause with his whole strength and soul can be a true
+      master. For this reason
+      mastery demands all of a person" - Albert Einstein</p>
+  </section>
+  <!-- END TESTIMONIAL -->
 
-      <section id="services">
-        <div id="services-title">
-          <h2>Services</h2>
-        </div>
-        <div class="card-container">
-          <div class="card">
-            <h3 class="card-title">Video Production</h3>
-            <p class="card-description">
-              Check out our video production services and process!
-            </p>
-          </div>
+  <!-- Services -->
+  <section id="services">
+    <h1 class="section-title">Services</h1>
+    <div class="service-card">
+      <span class="services-icon"><i class="fa fa-video-camera"></i></span class="services-icon">
+      <h2>Video Production</h2>
+      <p>Check out our video production services and process!</p>
+    </div>
 
-          <div class="card">
-            <h3 class="card-title">Aerial Photography</h3>
-            <p class="card-description">
-              Check out our photography services and process!
-            </p>
-          </div>
-        </div>
-      </section>
+    <div class="service-card">
+      <span class="services-icon"><i class="fa fa-camera"></i></span class="services-icon">
+      <h2>Aerial Photography</h2>
+      <p>Check out our photography services and process.</p>
+    </div>
+  </section>
+  <!-- END SERVICES -->
 
-      <section id="clients">
-        <div id="clients-title">
-          <h2>Our Clients</h2>
-        </div>
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h1 class="section-title">Our Work</h1>
 
-        <ul id="logo-container">
-          <li class="logo">
-            <img src="https://via.placeholder.com/150" alt="" srcset="" />
-          </li>
-          <li class="logo">
-            <img src="https://via.placeholder.com/150" alt="" srcset="" />
-          </li>
-          <li class="logo">
-            <img src="https://via.placeholder.com/150" alt="" srcset="" />
-          </li>
-          <li class="logo">
-            <img src="https://via.placeholder.com/150" alt="" srcset="" />
-          </li>
-          <li class="logo">
-            <img src="https://via.placeholder.com/150" alt="" srcset="" />
-          </li>
-        </ul>
-      </section>
+    <div class="portfolio-card">
+      <img src="./assets/images/portfolio3-1.jpg" alt="">
+    </div>
 
-      <section id="actionPoint">
-        <h3>
-          Want to check out our work? <br /><a href="#work"
-            >View our portfolio here!</a
-          >
-        </h3>
-      </section>
+    <div class="portfolio-card">
+      <img src="./assets/images/portfolio2-1.jpg" alt="">
+    </div>
 
-      <section id="contact">
-        <div id="contact-title">
-          <h2>Contact</h2>
-        </div>
+    <div class="portfolio-card">
+      <iframe width="90%" height="300" src="https://www.youtube.com/embed/MolOZEVxKUg" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-        <div class="tagLines contact">
-          <div class="contact-1">
-            <h3>Email</h3>
-            <p>CreativeVisionsFL@gmail.com</p>
-          </div>
+    <div class="portfolio-card">
+      <iframe width="90%" height="300" src="https://www.youtube.com/embed/INUeFM-VsfM" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-          <div class="contact-2">
-            <h3>Address</h3>
-            <p>Palm Harbor, Fl.</p>
-          </div>
+    <div id="portfolio-banner">
+      <h3>Want to see more of our work?</h3>
+      <h4><a href="#">Check out our full portfolio here</a></h4>
+    </div>
+  </section>
+  <!-- END PORTFOLIO -->
 
-          <div class="contact-3">
-            <h3>Phone</h3>
-            <p>727-809-2511</p>
-          </div>
-        </div>
-      </section>
+  <!-- Contact -->
+  <section id="contact" class="center-content">
+    <h1>Contact</h1>
 
-      <section id="quote" class="form-style-8">
-        <div id="quote-title">
-          <h2>Request A Quote</h2>
-        </div>
-        <form action="#">
-          <input type="text" name="user-name" placeholder="Name" />
-          <input type="email" name="user-email" placeholder="Email" />
-          <input type="text" name="user-emailSubject" placeholder="Subject" />
-          <input type="text" name="user-emailMessage" placeholder="Message" />
-          <br />
-          <button type="submit">Send</button>
-        </form>
-      </section>
-    </main>
-  </body>
+    <h3>Phone</h3>
+    <p>(727) 809-2511</p>
+
+    <h3>Email</h3>
+    <p>CreativeVisionsFL@gmail.com</p>
+
+  </section>
+  <!-- END CONTACT -->
+
+  <!-- Quote -->
+  <section id="quote" class="center-content form-style-8">
+    <h1>Request A Quote</h1>
+    <form action="#">
+
+      <input type="text" name="user-name" placeholder="Name" />
+      <input type="email" name="user-email" placeholder="Email" />
+      <input type="text" name="user-emailSubject" placeholder="Subject" />
+      <input type="text" name="user-emailMessage" placeholder="Message" />
+      <br />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <!-- END QUOTE -->
+
+  <!-- Footer -->
+  <footer>
+    <img src="./assets/images/logo.png" alt="">
+    <div id="socials">
+      <a href="https://www.youtube.com/channel/UCB3zKU73P3vjZ1AzAxf958g"><i class="fa fa-youtube-square"></i></a>
+      <a href="https://www.instagram.com/creativevisionsfl/"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.facebook.com/CreativeVisionsFL/"><i class="fa fa-facebook-square"></i></a>
+      <p>Copyright&copy; Creative Visions LLC 2020. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+<script src="./assets/js/script.js"></script>
+
 </html>

@@ -223,7 +223,8 @@ body {
 }
 
 .content {
-	z-index: 2;
+  z-index: 2;
+ 
 }
 
 .cta-btn {
@@ -239,6 +240,20 @@ body {
 }
 
 /* END SHOWCASE */
+
+/* About */
+#about {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 75px;
+  line-height: 2;
+  color: #333333;
+}
+
+.benefit {
+  margin-bottom: 50px;
+}
+/* END ABOUT */
 
 /* Services */
 #services {
@@ -286,6 +301,12 @@ body {
 /* Portfolio */
 .portfolio-card img {
   width: 90%;
+  margin-bottom: 50px;
+}
+
+.portfolio-card iframe {
+  width: 90%;
+  margin-bottom: 50px;
 }
 
 #portfolio-banner {
@@ -361,6 +382,7 @@ body {
 
 .section-title {
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 #socials a {

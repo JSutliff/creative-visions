@@ -1,4 +1,4 @@
-/* CORE STYLES */
+CORE STYLES
 :root {
   --primary-color: rgba(51, 51, 51);
   --overlay-color: rgba(24, 39, 51 , 0.85);
@@ -505,12 +505,6 @@ margin: 20px;
   margin-top: 15rem;
 }
 
-.portfolio-grid {
-  display: grid;
-  
-  grid-template-columns: repeat(6, 1fr);
-  justify-items: center;
-}
 
 .portfolio-container {
   display: flex;
@@ -518,10 +512,8 @@ margin: 20px;
   justify-content: space-evenly;
   
 }
-
 .portfolio-card {
   width: 40%;
-  grid-column: span 3;
 }
 /* END PORTFOLIO */
  

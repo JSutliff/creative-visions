@@ -4,7 +4,3 @@ document.getElementById('toggleMenu').addEventListener('click', function () {
   document.getElementById("toggler").checked = false;
 })
 
-document.getElementById('toggleMenu').addEventListener('click', function () {
-  console.log('clicky')
-  document.getElementById("toggler").checked = false;
-})

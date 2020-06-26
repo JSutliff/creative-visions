@@ -309,6 +309,11 @@ body {
 #portfolio-banner a{
   color: white;
 }
+
+
+.portfolio-img:hover {
+  filter: grayscale(100%);
+}
 /* END PORTFOLIO */
 
 /* Contact */
@@ -492,7 +497,5 @@ body {
  
 }
 
-.portfolio-img:hover {
-  filter: grayscale(100%);
-}
+
 

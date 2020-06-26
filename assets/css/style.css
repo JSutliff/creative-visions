@@ -180,6 +180,11 @@ body {
 .hide {
   display: none
 }
+
+#nav-logo {
+  height: 120px;
+  margin-top: -70px;
+}
 /* END HAMBURGER MENU */
 
 /* Showcase */

@@ -501,10 +501,15 @@ margin: 20px;
   /* END SERVICES */
 
 /* Portfolio */
+#portfolio {
+  margin-top: 15rem;
+}
+
 .portfolio-container {
   display: flex;
   margin: 50px;
   justify-content: space-evenly;
+  
 }
 
 .portfolio-card {

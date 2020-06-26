@@ -175,6 +175,11 @@ body {
   text-decoration: none;
   transition: color 0.4s ease;
 }
+
+
+.hide {
+  display: none
+}
 /* END HAMBURGER MENU */
 
 /* Showcase */
@@ -245,6 +250,29 @@ body {
 }
 
 /* END SHOWCASE */
+.first-letter{
+  font-size: 50px;
+  line-height: 70px;
+}
+/* About */
+
+/* END ABOUT */
+
+/* Testimonial */
+#testimonial {
+  margin-top: 75px;
+  line-height: 2;
+  font-size: 1.4rem;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+
+#testimonial-content {
+  margin: 20px
+
+}
+/* END TESTIMONIAL */
 
 /* Services */
 #services {
@@ -273,21 +301,7 @@ body {
 
 /* END SERVICES */
 
-/* Testimonial */
-#testimonial {
-  margin-top: 75px;
-  line-height: 2;
-  font-size: 1.4rem;
-  background-color: black;
-  color: white;
-  padding: 40px;
-}
 
-#testimonial-content {
-  margin: 20px
-
-}
-/* END TESTIMONIAL */
 
 
 /* Portfolio */
@@ -371,10 +385,9 @@ body {
 }
 /* END CONTACT */
 
-.hide {
-  display: none
-}
 
+
+/* Footer */
 .section-title {
   text-transform: uppercase;
   margin-bottom: 75px;
@@ -393,9 +406,9 @@ body {
 #socials a:hover {
   color: black
 }
+/* END FOOTER */
 
-
-
+/* Large Screen Media */
 @media only screen and (min-width: 700px) {
   /* Top Nav & Menu */
   .hide {
@@ -453,10 +466,7 @@ body {
   width: 40%;
 }
 
-.first-letter{
-  font-size: 35px;
-  line-height: 70px;
-}
+
 
 #about-benefits {
   display: flex;

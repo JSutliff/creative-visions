@@ -505,6 +505,13 @@ margin: 20px;
   margin-top: 15rem;
 }
 
+.portfolio-grid {
+  display: grid;
+  
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+}
+
 .portfolio-container {
   display: flex;
   margin: 50px;
@@ -514,7 +521,7 @@ margin: 20px;
 
 .portfolio-card {
   width: 40%;
-  
+  grid-column: span 3;
 }
 /* END PORTFOLIO */
  

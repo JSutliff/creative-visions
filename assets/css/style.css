@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
 }
 
@@ -196,7 +196,7 @@ body {
 	text-align: center;
 	color: #fff;
   padding: 0 20px;
-  
+  margin-bottom: 75px;
 }
 
 .video-container {
@@ -258,9 +258,12 @@ body {
 .first-letter{
   font-size: 50px;
   line-height: 70px;
+  color: black;
 }
 /* About */
-
+#about {
+margin: 20px;
+}
 /* END ABOUT */
 
 /* Testimonial */

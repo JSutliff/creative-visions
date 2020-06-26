@@ -1,4 +1,3 @@
-
 /* CORE STYLES */
 :root {
   --primary-color: rgba(51, 51, 51);
@@ -11,14 +10,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'arial', sans-serif;
+  font-size: 1.1rem;
 }
 
 body {
-  
   line-height: 1.4;
   text-align: center;
-  
- 
 }
 
 /* Hamburger Menu */
@@ -188,7 +185,8 @@ body {
 	justify-content: center;
 	text-align: center;
 	color: #fff;
-	padding: 0 20px;
+  padding: 0 20px;
+  
 }
 
 .video-container {
@@ -224,7 +222,14 @@ body {
 
 .content {
   z-index: 2;
- 
+}
+
+.content h1 {
+  font-size: 2rem;
+}
+
+.content h3 {
+  font-size: 1.5rem;
 }
 
 .cta-btn {
@@ -240,20 +245,6 @@ body {
 }
 
 /* END SHOWCASE */
-
-/* About */
-#about {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 75px;
-  line-height: 2;
-  color: #333333;
-}
-
-.benefit {
-  margin-bottom: 50px;
-}
-/* END ABOUT */
 
 /* Services */
 #services {
@@ -272,6 +263,7 @@ body {
   margin: 0 auto;
   margin-bottom: 50px;
   background-color: #ededed;
+  border: solid black 1px;
 
 }
 
@@ -299,14 +291,12 @@ body {
 
 
 /* Portfolio */
-.portfolio-card img {
-  width: 90%;
-  margin-bottom: 50px;
+.portfolio-card {
+  margin-bottom: 75px;
 }
 
-.portfolio-card iframe {
+.portfolio-card img {
   width: 90%;
-  margin-bottom: 50px;
 }
 
 #portfolio-banner {
@@ -382,18 +372,27 @@ body {
 
 .section-title {
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
+}
+
+#socials {
+  color: #8B8B8B;
 }
 
 #socials a {
   text-decoration: none;
-  color: #333333;
+  color: #8B8B8B;
   font-size: 2rem;
+}
+
+#socials a:hover {
+  color: black
 }
 
 
 
 @media only screen and (min-width: 700px) {
+  /* Top Nav & Menu */
   .hide {
     display: block;
     position: absolute;
@@ -424,44 +423,76 @@ body {
     display: none;
   }
 
+  /* END TOP MENU */
+
+  /* Video */
   .video-container {
     top: 100px;
     
   }
+  /* END VIDEO */
 
-  #features {
-    margin-top: 175px;
-  }
-
-  #features-address {
-    font-size: 2.5rem;
-  }
-
-  #features-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  #last-item {
-    grid-column-start: 2;
-    grid-column-end: 2;
-  }
-
-  #description {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  #description-text {
-    font-size: 1.5rem;
-  }
-
-  #photos {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-
-  .wrap {
-    margin-top: 25px;
-  }
+  /* About */
+#about {
+  margin-top: 75px;
 }
+
+#about-story {
+  display: flex;
+  justify-content: space-evenly;
+  
+  margin-bottom: 75px;
+}
+
+#about-story p {
+  width: 40%;
+}
+
+.first-letter{
+  font-size: 35px;
+  line-height: 70px;
+}
+
+#about-benefits {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#about-benefits .benefit{
+ width: 30%;
+}
+  /* END ABOUT */
+
+  /* Services */
+#services-container{
+  display: flex;
+}
+
+.service-card {
+  width: 30%;
+}
+
+.service-card:hover {
+  cursor: pointer;
+}
+  /* END SERVICES */
+
+/* Portfolio */
+.portfolio-container {
+  display: flex;
+  margin: 50px;
+  justify-content: space-evenly;
+}
+
+.portfolio-card {
+  width: 40%;
+  
+}
+/* END PORTFOLIO */
+ 
+}
+
+.portfolio-img:hover {
+  filter: grayscale(100%);
+}
+

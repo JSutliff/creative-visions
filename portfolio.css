@@ -2,9 +2,14 @@
   padding-top: 20px;
 }
 
-.portfolio-img img{
+.portfolio-img img {
   width: 90%;
   margin-bottom: 2rem;
+  box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
+}
+
+div iframe {
+  box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
 }
 
 @media only screen and (min-width: 700px) {
@@ -17,15 +22,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .portfolio-img {
-    /* width: 40% */
-  }
-
-  .portfolio-card{
+  .portfolio-card {
     width: 100%;
   }
-
-  
-
-
 }

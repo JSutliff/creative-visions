@@ -19,7 +19,7 @@ body {
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
 }
 
@@ -326,7 +326,7 @@ button:hover {
   margin-bottom: 50px;
   background-color: #ededed;
   border: solid black 1px;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
 }
 
@@ -343,7 +343,7 @@ button:hover {
 
 .portfolio-card img {
   width: 90%;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
 }
 

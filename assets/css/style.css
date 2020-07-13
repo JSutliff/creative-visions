@@ -18,6 +18,15 @@ body {
   text-align: center;
 }
 
+button {
+  border-radius: 10px;
+  box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 /* Hamburger Menu */
 .btn {
   display: inline-block;

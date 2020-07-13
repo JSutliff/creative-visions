@@ -279,6 +279,7 @@ body {
 #about {
   margin: 20px;
 }
+
 /* END ABOUT */
 
 /* Testimonial */
@@ -488,6 +489,7 @@ p {
 
   #about-story p {
     width: 40%;
+    font-size: 1.5rem;
   }
 
   #about-benefits {
@@ -501,12 +503,21 @@ p {
   /* END ABOUT */
 
   /* Services */
-  #services-container {
+  .services-container {
     display: flex;
   }
 
   .service-card {
-    width: 30%;
+    width: 35%;
+    padding: 1.5rem;
+  }
+
+  .service-card h2 {
+    font-size: 1.2rem;
+  }
+
+  #services-container-0 {
+    margin-bottom: 150px;
   }
 
   .service-card:hover {

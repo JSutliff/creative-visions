@@ -509,6 +509,14 @@ p {
   #about-benefits .benefit {
     width: 30%;
   }
+
+  .benefit h2 {
+    font-size: 1.4rem;
+  }
+
+  .benefit p {
+    font-size: 1.4rem;
+  }
   /* END ABOUT */
 
   /* Services */

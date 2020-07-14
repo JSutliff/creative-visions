@@ -289,6 +289,17 @@ button:hover {
   margin: 20px;
 }
 
+#about-benefits {
+  margin-top: 75px;
+}
+
+.benefit-bottom-margin {
+  margin-bottom: 50px;
+}
+
+.benefit-final {
+  margin-bottom: 75px;
+}
 /* END ABOUT */
 
 /* Testimonial */
@@ -323,7 +334,7 @@ button:hover {
 .service-card {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   background-color: #ededed;
   border: solid black 1px;
   border-radius: 5px;

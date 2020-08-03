@@ -259,6 +259,7 @@ button:hover {
 #page-title {
   font-size: 3rem;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 #page-description {

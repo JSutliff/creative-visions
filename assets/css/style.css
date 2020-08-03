@@ -356,7 +356,6 @@ button:hover {
 /* Portfolio */
 #portfolio {
   text-align: center;
-  margin-top: 150px;
 }
 
 .portfolio-card {
@@ -578,6 +577,10 @@ footer {
   /* END SERVICES */
 
   /* Portfolio */
+
+  #portfolio {
+    margin-top: 150px;
+  }
 
   .portfolio-container {
     display: flex;

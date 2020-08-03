@@ -354,6 +354,11 @@ button:hover {
 /* END SERVICES */
 
 /* Portfolio */
+#portfolio {
+  text-align: center;
+  margin-top: 150px;
+}
+
 .portfolio-card {
   margin-bottom: 75px;
 }

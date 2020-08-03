@@ -397,6 +397,11 @@ p {
   margin-bottom: 25px;
 }
 
+#contact a {
+  font-weight: bold;
+  color: rgb(244, 122, 37);
+}
+
 #quote {
   height: 500px;
   background-color: #fafafa;
@@ -453,12 +458,13 @@ p {
 
 #socials a {
   text-decoration: none;
-  color: #8b8b8b;
+
+  color: rgb(244, 122, 37);
   font-size: 2rem;
 }
 
 #socials a:hover {
-  color: black;
+  color: #8b8b8b;
 }
 
 #built-by a {
